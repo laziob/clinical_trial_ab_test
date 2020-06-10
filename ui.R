@@ -11,7 +11,7 @@ library(shiny)
 library(plotly)
 
 ui <- fluidPage(
-    titlePanel('AGILE A/B Test Simulator'),
+    titlePanel('Clinical A/B Test Simulator'),
     sidebarLayout(
         sidebarPanel(
             width=2,
