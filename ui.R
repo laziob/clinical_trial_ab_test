@@ -18,29 +18,29 @@ ui <- fluidPage(
             numericInput(
                 'p_a',
                 'Baseline Probability',
-                min = 0,
-                max = 1,
+                min = 0.00001,
+                max = 0.99999,
                 value = 0.015
             ),
             numericInput(
                 'min_lift',
                 'Minimum Desirable Effect (Lift)',
-                min = 0,
+                min = 0.00001,
                 max = 1,
                 value = 0.1
             ),
             numericInput(
                 'alpha',
                 'alpha (Type 1 Error)',
-                min = 0,
-                max = 1,
+                min = 0.00001,
+                max = 0.99999,
                 value = 0.05
             ),
             numericInput(
                 'beta',
                 'beta (Type 2 Error)',
-                min = 0,
-                max = 1,
+                min = 0.00001,
+                max = 0.99999,
                 value = 0.1
             ),
             radioButtons("hay_efecto",

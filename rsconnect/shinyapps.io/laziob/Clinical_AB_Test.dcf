@@ -4,9 +4,9 @@ username:
 account: laziob
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
-appId: 2433804
-bundleId: 3249446
+appId: 2434122
+bundleId: 3249657
 url: https://laziob.shinyapps.io/Clinical_AB_Test/
-when: 1591748080.15848
+when: 1591753648.54976
 asMultiple: FALSE
 asStatic: FALSE
